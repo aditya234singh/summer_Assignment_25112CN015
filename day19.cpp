@@ -19,6 +19,9 @@ void printarr(int arr[],int n){
     }
 }
 int main(){
-
+    int arr[] = {1,5,2,7,4};
+    int n=sizeof(arr);
+    insertionsort(arr,n);
+    printarr(arr,n);
     return 0;
 }
