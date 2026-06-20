@@ -1,7 +1,7 @@
 // question - print the fibonacci number up to a given number n
 #include <iostream>
 using namespace std;
-int fibonacciint n){
+int fibonacci (int n){
     if(n==0 || n==1){
         return n;
     }
